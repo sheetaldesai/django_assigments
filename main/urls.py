@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.conf.urls import include
 
 urlpatterns = [
+    url(r'^random_word/', include('apps.random_word_generator.urls')),
     url(r'^blog/', include('apps.blog_app.urls')),
     url(r'^display_time/', include('apps.display_time.urls')),
     url(r'^admin/', admin.site.urls),    

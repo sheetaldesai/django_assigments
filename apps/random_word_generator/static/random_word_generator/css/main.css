@@ -1,0 +1,46 @@
+label {
+    display: block;
+    margin: 20px;
+}
+
+input[type="submit"] {
+    height: 50px;
+    background-color:#FB5A24;
+    width: 100px;
+    color: #F8FAF7;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+#container {
+    margin: auto;
+    text-align: center;
+}
+
+#randomForm {
+    margin: auto;
+    text-align: center;
+    background-color: #44C0B4;
+    height: 250px; 
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#title {
+    height: 30px;
+    font-size: 20px;
+    color: #FB5A24;
+    font-weight: 800;
+}
+
+#random {
+    height: 50px;
+    border: 3px solid #F8FAF7;
+    color:#F8FAF7;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800px;
+    text-align: center;
+}
+
